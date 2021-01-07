@@ -14,7 +14,6 @@
       content="https://luxspace.com/images/content/preview-homepage.jpg"
     />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="images/favicon.ico" />
     <!-- Place favicon.ico in the root directory -->
@@ -154,10 +153,9 @@
     <!-- START: cart -->
     <section class="md:py-16">
       <div class="container mx-auto px-4">
-        <div
-          class="flex -mx-4 flex-wrap"
+        <div class="flex -mx-4 flex-wrap">
           <!-- START: shipping cart -->
-          <div class="w-full px-4 mb-4 md:w-8/12 md:mb-0" data-aos="slide-left" data-aos-delay="200" id="shopping-cart">
+          <div class="w-full px-4 mb-4 md:w-8/12 md:mb-0" id="shopping-cart">
             <div
               class="flex flex-start mb-4 mt-8 pb-3 border-b border-gray-200 md:border-b-0"
             >
@@ -342,7 +340,7 @@
           <!-- END: shipping cart -->
 
           <!-- START: shipping details -->
-          <div class="w-full md:px-4 md:w-4/12" id="shipping-detail" data-aos="slide-right" data-aos-delay="300">
+          <div class="w-full md:px-4 md:w-4/12" id="shipping-detail">
             <div class="bg-gray-100 px-4 py-6 md:p-8 md:rounded-3xl">
               <form action="success.html">
                 <div class="flex flex-start mb-6">
@@ -530,7 +528,7 @@
                     type="submit"
                     disabled
                     class="bg-pink-400 text-black focus:bg-black focus:outline-none w-full py-3 rounded-full text-lg focus:text-pink-400 transition-all duration-200 px-6"
-                  data-aos="zoom-in-up" data-aos-delay="400">
+                  >
                     Checkout Now
                   </button>
                 </div>
@@ -616,7 +614,7 @@
               <h5 class="text-xl font-semibold mb-2 relative">
                 Special Letter
               </h5>
-              <form action="#" data-aos="slide-left" data-aos-delay="500">
+              <form action="#">
                 <label class="relative w-full">
                   <input
                     type="text"
@@ -658,10 +656,6 @@
     <!-- END: Footer -->
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     <script>
       window.ga = function () {
         ga.q.push(arguments);
@@ -673,18 +667,315 @@
       ga("set", "transport", "beacon");
       ga("send", "pageview");
     </script>
-      <script type="text/javascript">
-        var _0x4dad=['createElement','19391CukPyc','234131KLVUlE','appendChild','async','933390SpJocj','head','script','41741mGxIJY','$crisp','https://client.crisp.chat/l.js','280069VOYkay','48AdKBzy','92OWfqbr','a93cf597-240d-47c3-b1cf-ce1036ebc1ab','4HELhyA','CRISP_WEBSITE_ID','326163AWjhsR','426517NxLXPF'];var _0x8f0a=function(_0x4621a0,_0x26f28a){_0x4621a0=_0x4621a0-0x9f;var _0x4dada8=_0x4dad[_0x4621a0];return _0x4dada8;};var _0x59b80c=_0x8f0a;(function(_0x5e9f94,_0x251c51){var _0x1487ad=_0x8f0a;while(!![]){try{var _0xfa2439=-parseInt(_0x1487ad(0xad))+parseInt(_0x1487ad(0xa0))+-parseInt(_0x1487ad(0xa7))+-parseInt(_0x1487ad(0xa6))+-parseInt(_0x1487ad(0xaa))*parseInt(_0x1487ad(0xa4))+parseInt(_0x1487ad(0xa9))*-parseInt(_0x1487ad(0xa1))+parseInt(_0x1487ad(0xa2))*parseInt(_0x1487ad(0xb0));if(_0xfa2439===_0x251c51)break;else _0x5e9f94['push'](_0x5e9f94['shift']());}catch(_0x56b796){_0x5e9f94['push'](_0x5e9f94['shift']());}}}(_0x4dad,0x8a65f),window[_0x59b80c(0xb1)]=[],window[_0x59b80c(0xa5)]=_0x59b80c(0xa3),function(){var _0x47e588=_0x59b80c;d=document,s=d[_0x47e588(0xa8)](_0x47e588(0xaf)),s['src']=_0x47e588(0x9f),s[_0x47e588(0xac)]=0x1,d['getElementsByTagName'](_0x47e588(0xae))[0x0][_0x47e588(0xab)](s);}());
+    <script type="text/javascript">
+      var _0x4dad = [
+        "createElement",
+        "19391CukPyc",
+        "234131KLVUlE",
+        "appendChild",
+        "async",
+        "933390SpJocj",
+        "head",
+        "script",
+        "41741mGxIJY",
+        "$crisp",
+        "https://client.crisp.chat/l.js",
+        "280069VOYkay",
+        "48AdKBzy",
+        "92OWfqbr",
+        "a93cf597-240d-47c3-b1cf-ce1036ebc1ab",
+        "4HELhyA",
+        "CRISP_WEBSITE_ID",
+        "326163AWjhsR",
+        "426517NxLXPF",
+      ];
+      var _0x8f0a = function (_0x4621a0, _0x26f28a) {
+        _0x4621a0 = _0x4621a0 - 0x9f;
+        var _0x4dada8 = _0x4dad[_0x4621a0];
+        return _0x4dada8;
+      };
+      var _0x59b80c = _0x8f0a;
+      (function (_0x5e9f94, _0x251c51) {
+        var _0x1487ad = _0x8f0a;
+        while (!![]) {
+          try {
+            var _0xfa2439 =
+              -parseInt(_0x1487ad(0xad)) +
+              parseInt(_0x1487ad(0xa0)) +
+              -parseInt(_0x1487ad(0xa7)) +
+              -parseInt(_0x1487ad(0xa6)) +
+              -parseInt(_0x1487ad(0xaa)) * parseInt(_0x1487ad(0xa4)) +
+              parseInt(_0x1487ad(0xa9)) * -parseInt(_0x1487ad(0xa1)) +
+              parseInt(_0x1487ad(0xa2)) * parseInt(_0x1487ad(0xb0));
+            if (_0xfa2439 === _0x251c51) break;
+            else _0x5e9f94["push"](_0x5e9f94["shift"]());
+          } catch (_0x56b796) {
+            _0x5e9f94["push"](_0x5e9f94["shift"]());
+          }
+        }
+      })(_0x4dad, 0x8a65f),
+        (window[_0x59b80c(0xb1)] = []),
+        (window[_0x59b80c(0xa5)] = _0x59b80c(0xa3)),
+        (function () {
+          var _0x47e588 = _0x59b80c;
+          (d = document),
+            (s = d[_0x47e588(0xa8)](_0x47e588(0xaf))),
+            (s["src"] = _0x47e588(0x9f)),
+            (s[_0x47e588(0xac)] = 0x1),
+            d["getElementsByTagName"](_0x47e588(0xae))[0x0][_0x47e588(0xab)](s);
+        })();
     </script>
     <!-- widget -->
-    <script type="text/javascript" id="widget"> 
-        var _0x38a5=['protocol','init','29IlyWtW','87511DmanDz','text/javascript','createElement','10381gFIwvC','53699iazRhY','insertBefore','location','227502ExVzfi','src','async','889wjFRcz','onload','Chat\x20me\x20with\x20whatsapp\x20;)','1uqwELj','type','17fHzbyb','581024fSLaMp','+6282299370593','script','213039FIijXE'];var _0x4b47=function(_0xda093d,_0x120495){_0xda093d=_0xda093d-0x98;var _0x38a5fa=_0x38a5[_0xda093d];return _0x38a5fa;};(function(_0x2a1bad,_0x2ed6e4){var _0x205928=_0x4b47;while(!![]){try{var _0x589232=parseInt(_0x205928(0xad))+-parseInt(_0x205928(0x99))+-parseInt(_0x205928(0xa8))*-parseInt(_0x205928(0x9c))+-parseInt(_0x205928(0xac))*parseInt(_0x205928(0xa1))+-parseInt(_0x205928(0xa9))*-parseInt(_0x205928(0x9f))+-parseInt(_0x205928(0xa5))+parseInt(_0x205928(0xa2));if(_0x589232===_0x2ed6e4)break;else _0x2a1bad['push'](_0x2a1bad['shift']());}catch(_0x2fd308){_0x2a1bad['push'](_0x2a1bad['shift']());}}}(_0x38a5,0x1ffb5),function(){var _0xf467aa=_0x4b47,_0x2546be={'whatsapp':_0xf467aa(0xa3),'call_to_action':_0xf467aa(0x9e),'position':'left'},_0x179260=document[_0xf467aa(0x98)][_0xf467aa(0xa6)],_0x197e00='getbutton.io',_0x43e952=_0x179260+'//static.'+_0x197e00,_0x240815=document[_0xf467aa(0xab)](_0xf467aa(0xa4));_0x240815[_0xf467aa(0xa0)]=_0xf467aa(0xaa),_0x240815[_0xf467aa(0x9b)]=!![],_0x240815[_0xf467aa(0x9a)]=_0x43e952+'/widget-send-button/js/init.js',_0x240815[_0xf467aa(0x9d)]=function(){var _0x4416c6=_0xf467aa;WhWidgetSendButton[_0x4416c6(0xa7)](_0x197e00,_0x179260,_0x2546be);};var _0x499df1=document['getElementsByTagName'](_0xf467aa(0xa4))[0x0];_0x499df1['parentNode'][_0xf467aa(0xae)](_0x240815,_0x499df1);}());
+    <script type="text/javascript" id="widget">
+      var _0x38a5 = [
+        "protocol",
+        "init",
+        "29IlyWtW",
+        "87511DmanDz",
+        "text/javascript",
+        "createElement",
+        "10381gFIwvC",
+        "53699iazRhY",
+        "insertBefore",
+        "location",
+        "227502ExVzfi",
+        "src",
+        "async",
+        "889wjFRcz",
+        "onload",
+        "Chat\x20me\x20with\x20whatsapp\x20;)",
+        "1uqwELj",
+        "type",
+        "17fHzbyb",
+        "581024fSLaMp",
+        "+6282299370593",
+        "script",
+        "213039FIijXE",
+      ];
+      var _0x4b47 = function (_0xda093d, _0x120495) {
+        _0xda093d = _0xda093d - 0x98;
+        var _0x38a5fa = _0x38a5[_0xda093d];
+        return _0x38a5fa;
+      };
+      (function (_0x2a1bad, _0x2ed6e4) {
+        var _0x205928 = _0x4b47;
+        while (!![]) {
+          try {
+            var _0x589232 =
+              parseInt(_0x205928(0xad)) +
+              -parseInt(_0x205928(0x99)) +
+              -parseInt(_0x205928(0xa8)) * -parseInt(_0x205928(0x9c)) +
+              -parseInt(_0x205928(0xac)) * parseInt(_0x205928(0xa1)) +
+              -parseInt(_0x205928(0xa9)) * -parseInt(_0x205928(0x9f)) +
+              -parseInt(_0x205928(0xa5)) +
+              parseInt(_0x205928(0xa2));
+            if (_0x589232 === _0x2ed6e4) break;
+            else _0x2a1bad["push"](_0x2a1bad["shift"]());
+          } catch (_0x2fd308) {
+            _0x2a1bad["push"](_0x2a1bad["shift"]());
+          }
+        }
+      })(_0x38a5, 0x1ffb5),
+        (function () {
+          var _0xf467aa = _0x4b47,
+            _0x2546be = {
+              whatsapp: _0xf467aa(0xa3),
+              call_to_action: _0xf467aa(0x9e),
+              position: "left",
+            },
+            _0x179260 = document[_0xf467aa(0x98)][_0xf467aa(0xa6)],
+            _0x197e00 = "getbutton.io",
+            _0x43e952 = _0x179260 + "//static." + _0x197e00,
+            _0x240815 = document[_0xf467aa(0xab)](_0xf467aa(0xa4));
+          (_0x240815[_0xf467aa(0xa0)] = _0xf467aa(0xaa)),
+            (_0x240815[_0xf467aa(0x9b)] = !![]),
+            (_0x240815[_0xf467aa(0x9a)] =
+              _0x43e952 + "/widget-send-button/js/init.js"),
+            (_0x240815[_0xf467aa(0x9d)] = function () {
+              var _0x4416c6 = _0xf467aa;
+              WhWidgetSendButton[_0x4416c6(0xa7)](
+                _0x197e00,
+                _0x179260,
+                _0x2546be
+              );
+            });
+          var _0x499df1 = document["getElementsByTagName"](
+            _0xf467aa(0xa4)
+          )[0x0];
+          _0x499df1["parentNode"][_0xf467aa(0xae)](_0x240815, _0x499df1);
+        })();
     </script>
-    <script type='text/javascript'>
-//<![CDATA[
-shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="http://www.psikomter.my.id"});
-//]]>
-</script>
+    <script type="text/javascript">
+      //<![CDATA[
+      (shortcut = {
+        all_shortcuts: {},
+        add: function (a, b, c) {
+          var d = {
+            type: "keydown",
+            propagate: !1,
+            disable_in_input: !1,
+            target: document,
+            keycode: !1,
+          };
+          if (c) for (var e in d) "undefined" == typeof c[e] && (c[e] = d[e]);
+          else c = d;
+          (d = c.target),
+            "string" == typeof c.target &&
+              (d = document.getElementById(c.target)),
+            (a = a.toLowerCase()),
+            (e = function (d) {
+              d = d || window.event;
+              if (c.disable_in_input) {
+                var e;
+                d.target ? (e = d.target) : d.srcElement && (e = d.srcElement),
+                  3 == e.nodeType && (e = e.parentNode);
+                if ("INPUT" == e.tagName || "TEXTAREA" == e.tagName) return;
+              }
+              d.keyCode ? (code = d.keyCode) : d.which && (code = d.which),
+                (e = String.fromCharCode(code).toLowerCase()),
+                188 == code && (e = ","),
+                190 == code && (e = ".");
+              var f = a.split("+"),
+                g = 0,
+                h = {
+                  "`": "~",
+                  1: "!",
+                  2: "@",
+                  3: "#",
+                  4: "$",
+                  5: "%",
+                  6: "^",
+                  7: "&",
+                  8: "*",
+                  9: "(",
+                  0: ")",
+                  "-": "_",
+                  "=": "+",
+                  ";": ":",
+                  "'": '"',
+                  ",": "<",
+                  ".": ">",
+                  "/": "?",
+                  "\\": "|",
+                },
+                i = {
+                  esc: 27,
+                  escape: 27,
+                  tab: 9,
+                  space: 32,
+                  return: 13,
+                  enter: 13,
+                  backspace: 8,
+                  scrolllock: 145,
+                  scroll_lock: 145,
+                  scroll: 145,
+                  capslock: 20,
+                  caps_lock: 20,
+                  caps: 20,
+                  numlock: 144,
+                  num_lock: 144,
+                  num: 144,
+                  pause: 19,
+                  break: 19,
+                  insert: 45,
+                  home: 36,
+                  delete: 46,
+                  end: 35,
+                  pageup: 33,
+                  page_up: 33,
+                  pu: 33,
+                  pagedown: 34,
+                  page_down: 34,
+                  pd: 34,
+                  left: 37,
+                  up: 38,
+                  right: 39,
+                  down: 40,
+                  f1: 112,
+                  f2: 113,
+                  f3: 114,
+                  f4: 115,
+                  f5: 116,
+                  f6: 117,
+                  f7: 118,
+                  f8: 119,
+                  f9: 120,
+                  f10: 121,
+                  f11: 122,
+                  f12: 123,
+                },
+                j = !1,
+                l = !1,
+                m = !1,
+                n = !1,
+                o = !1,
+                p = !1,
+                q = !1,
+                r = !1;
+              d.ctrlKey && (n = !0),
+                d.shiftKey && (l = !0),
+                d.altKey && (p = !0),
+                d.metaKey && (r = !0);
+              for (var s = 0; (k = f[s]), s < f.length; s++)
+                "ctrl" == k || "control" == k
+                  ? (g++, (m = !0))
+                  : "shift" == k
+                  ? (g++, (j = !0))
+                  : "alt" == k
+                  ? (g++, (o = !0))
+                  : "meta" == k
+                  ? (g++, (q = !0))
+                  : 1 < k.length
+                  ? i[k] == code && g++
+                  : c.keycode
+                  ? c.keycode == code && g++
+                  : e == k
+                  ? g++
+                  : h[e] && d.shiftKey && ((e = h[e]), e == k && g++);
+              if (
+                g == f.length &&
+                n == m &&
+                l == j &&
+                p == o &&
+                r == q &&
+                (b(d), !c.propagate)
+              )
+                return (
+                  (d.cancelBubble = !0),
+                  (d.returnValue = !1),
+                  d.stopPropagation &&
+                    (d.stopPropagation(), d.preventDefault()),
+                  !1
+                );
+            }),
+            (this.all_shortcuts[a] = { callback: e, target: d, event: c.type }),
+            d.addEventListener
+              ? d.addEventListener(c.type, e, !1)
+              : d.attachEvent
+              ? d.attachEvent("on" + c.type, e)
+              : (d["on" + c.type] = e);
+        },
+        remove: function (a) {
+          var a = a.toLowerCase(),
+            b = this.all_shortcuts[a];
+          delete this.all_shortcuts[a];
+          if (b) {
+            var a = b.event,
+              c = b.target,
+              b = b.callback;
+            c.detachEvent
+              ? c.detachEvent("on" + a, b)
+              : c.removeEventListener
+              ? c.removeEventListener(a, b, !1)
+              : (c["on" + a] = !1);
+          }
+        },
+      }),
+        shortcut.add("Ctrl+U", function () {
+          top.location.href = "http://www.psikomter.my.id";
+        });
+      //]]>
+    </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
 </html>
